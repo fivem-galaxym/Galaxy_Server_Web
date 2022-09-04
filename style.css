@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Pretendard-Regular';
+}
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    background: #111;
+}
+
+.nav-logo > a > img {
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.navbar-items > ul {
+    margin-left: 10px;
+    margin-top: 21px;
+}
+
+.navbar-items > ul > li {
+    list-style: none;
+}
+
+.navbar-items > ul > li > a {
+    margin-left: 15px;
+    color: rgb(184, 184, 184);
+    transition: all 0.1s ease 0s;
+}
+
+.navbar-items > ul > li > a:hover {
+    color: #fff;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+.start-realt > button {
+    position: absolute;
+    color: #eee;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.411);
+    width: 120px;
+    height: 35px;
+    right: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 1.5px;
+    background: #56ab2f;
+    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    transition: all 0.1s ease 0s;
+}
+
+.start-realt > button:hover {
+    box-shadow: 0px 0px 4px #a8e063;
+}
+
+.simple-introduce {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-image: url("https://wallpaperaccess.com/full/5559063.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.server-text {
+    margin-left: auto;
+    margin-right: auto;
+    color: #eee;
+    font-size: 40px;
+    margin-top: 130px;
+}
+
+.server-text > h1 {
+    font-weight: bold;
+}
+
+.realt-txt {
+    text-align: center;
+}
+
+.server-text > p {
+    font-size: 23px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px rgb(208, 242, 255);
+    text-align: center;
+}
+
+.connect-discord-btn {
+    text-align: center;
+}
+
+.connect-discord-btn > button {
+    width: 150px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.fivem-connect {
+    border: 1px solid #00880b;
+    background: #00880b;
+    color: #eee;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0.5px 0.5px 10px #deffcf71;
+}
+
+.discord {
+    border: 1px solid #3b48ff;
+    background: #3b48ff;
+    color: #eee;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    box-shadow: 0.5px 0.5px 10px #cfd2ff71;
+}
+
+.server-info {
+    width: 100%;
+    height: 200px;
+    background: #eee;
+}
+
+.info-mtxt > p {
+    text-align: center;
+    padding-top: 28px;
+    line-height: 3px;
+}
+
+.admin-proflie {
+    display: block;
+    margin-top: 100px;
+}
+
+.dev-proflie {
+    display: block;
+    margin-top: 100px;
+}
+
+.proflie-header > .proflie-header-mtxt {
+    text-align: center;
+}
+
+.proflie-header > .proflie-header-stxt {
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.proflie {
+    display: flex;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.proflie > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.admin-info-txt > .proflie-mtxt {
+    font-size: 19px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.admin-info-txt > .proflie-stxt {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.dev-info-txt > .proflie-mtxt {
+    font-size: 19px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.dev-info-txt > .proflie-stxt {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+
+footer {
+    bottom: 0;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: #111;
+}
+
+.contact > h1 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 0px 0px 5px #fff;
+    padding-top: 130px;
+    margin-left: 20px;
+}
+
+.sitedev > p {
+    position: absolute;
+    color: gray;
+    margin-left: 20px;
+}
